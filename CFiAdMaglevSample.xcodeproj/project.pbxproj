@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		488FDA3F22FAAE0F0049FF60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 488FDA3E22FAAE0F0049FF60 /* AppDelegate.m */; };
+		488FDA4222FAAE0F0049FF60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 488FDA4122FAAE0F0049FF60 /* ViewController.m */; };
+		488FDA4522FAAE0F0049FF60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488FDA4322FAAE0F0049FF60 /* Main.storyboard */; };
+		488FDA4722FAAE100049FF60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488FDA4622FAAE100049FF60 /* Assets.xcassets */; };
+		488FDA4A22FAAE100049FF60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488FDA4822FAAE100049FF60 /* LaunchScreen.storyboard */; };
+		488FDA4D22FAAE100049FF60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 488FDA4C22FAAE100049FF60 /* main.m */; };
+		488FDA5722FAAE100049FF60 /* CFiAdMaglevSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 488FDA5622FAAE100049FF60 /* CFiAdMaglevSampleTests.m */; };
+		488FDA6222FAAE100049FF60 /* CFiAdMaglevSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 488FDA6122FAAE100049FF60 /* CFiAdMaglevSampleUITests.m */; };
+		488FDA7022FAAE4E0049FF60 /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488FDA6F22FAAE4E0049FF60 /* iMFAD.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		488FDA5322FAAE100049FF60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 488FDA3222FAAE0E0049FF60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 488FDA3922FAAE0E0049FF60;
+			remoteInfo = CFiAdMaglevSample;
+		};
+		488FDA5E22FAAE100049FF60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 488FDA3222FAAE0E0049FF60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 488FDA3922FAAE0E0049FF60;
+			remoteInfo = CFiAdMaglevSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		488FDA3A22FAAE0F0049FF60 /* CFiAdMaglevSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFiAdMaglevSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		488FDA3D22FAAE0F0049FF60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		488FDA3E22FAAE0F0049FF60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		488FDA4022FAAE0F0049FF60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		488FDA4122FAAE0F0049FF60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		488FDA4422FAAE0F0049FF60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		488FDA4622FAAE100049FF60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		488FDA4922FAAE100049FF60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		488FDA4B22FAAE100049FF60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488FDA4C22FAAE100049FF60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		488FDA5222FAAE100049FF60 /* CFiAdMaglevSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFiAdMaglevSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		488FDA5622FAAE100049FF60 /* CFiAdMaglevSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFiAdMaglevSampleTests.m; sourceTree = "<group>"; };
+		488FDA5822FAAE100049FF60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488FDA5D22FAAE100049FF60 /* CFiAdMaglevSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFiAdMaglevSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		488FDA6122FAAE100049FF60 /* CFiAdMaglevSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFiAdMaglevSampleUITests.m; sourceTree = "<group>"; };
+		488FDA6322FAAE100049FF60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488FDA6F22FAAE4E0049FF60 /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		488FDA3722FAAE0E0049FF60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488FDA7022FAAE4E0049FF60 /* iMFAD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488FDA4F22FAAE100049FF60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488FDA5A22FAAE100049FF60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		488FDA3122FAAE0E0049FF60 = {
+			isa = PBXGroup;
+			children = (
+				488FDA3C22FAAE0F0049FF60 /* CFiAdMaglevSample */,
+				488FDA5522FAAE100049FF60 /* CFiAdMaglevSampleTests */,
+				488FDA6022FAAE100049FF60 /* CFiAdMaglevSampleUITests */,
+				488FDA3B22FAAE0F0049FF60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		488FDA3B22FAAE0F0049FF60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				488FDA3A22FAAE0F0049FF60 /* CFiAdMaglevSample.app */,
+				488FDA5222FAAE100049FF60 /* CFiAdMaglevSampleTests.xctest */,
+				488FDA5D22FAAE100049FF60 /* CFiAdMaglevSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		488FDA3C22FAAE0F0049FF60 /* CFiAdMaglevSample */ = {
+			isa = PBXGroup;
+			children = (
+				488FDA6F22FAAE4E0049FF60 /* iMFAD.framework */,
+				488FDA3D22FAAE0F0049FF60 /* AppDelegate.h */,
+				488FDA3E22FAAE0F0049FF60 /* AppDelegate.m */,
+				488FDA4022FAAE0F0049FF60 /* ViewController.h */,
+				488FDA4122FAAE0F0049FF60 /* ViewController.m */,
+				488FDA4322FAAE0F0049FF60 /* Main.storyboard */,
+				488FDA4622FAAE100049FF60 /* Assets.xcassets */,
+				488FDA4822FAAE100049FF60 /* LaunchScreen.storyboard */,
+				488FDA4B22FAAE100049FF60 /* Info.plist */,
+				488FDA4C22FAAE100049FF60 /* main.m */,
+			);
+			path = CFiAdMaglevSample;
+			sourceTree = "<group>";
+		};
+		488FDA5522FAAE100049FF60 /* CFiAdMaglevSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				488FDA5622FAAE100049FF60 /* CFiAdMaglevSampleTests.m */,
+				488FDA5822FAAE100049FF60 /* Info.plist */,
+			);
+			path = CFiAdMaglevSampleTests;
+			sourceTree = "<group>";
+		};
+		488FDA6022FAAE100049FF60 /* CFiAdMaglevSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				488FDA6122FAAE100049FF60 /* CFiAdMaglevSampleUITests.m */,
+				488FDA6322FAAE100049FF60 /* Info.plist */,
+			);
+			path = CFiAdMaglevSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		488FDA3922FAAE0E0049FF60 /* CFiAdMaglevSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488FDA6622FAAE100049FF60 /* Build configuration list for PBXNativeTarget "CFiAdMaglevSample" */;
+			buildPhases = (
+				488FDA3622FAAE0E0049FF60 /* Sources */,
+				488FDA3722FAAE0E0049FF60 /* Frameworks */,
+				488FDA3822FAAE0E0049FF60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CFiAdMaglevSample;
+			productName = CFiAdMaglevSample;
+			productReference = 488FDA3A22FAAE0F0049FF60 /* CFiAdMaglevSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		488FDA5122FAAE100049FF60 /* CFiAdMaglevSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488FDA6922FAAE100049FF60 /* Build configuration list for PBXNativeTarget "CFiAdMaglevSampleTests" */;
+			buildPhases = (
+				488FDA4E22FAAE100049FF60 /* Sources */,
+				488FDA4F22FAAE100049FF60 /* Frameworks */,
+				488FDA5022FAAE100049FF60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				488FDA5422FAAE100049FF60 /* PBXTargetDependency */,
+			);
+			name = CFiAdMaglevSampleTests;
+			productName = CFiAdMaglevSampleTests;
+			productReference = 488FDA5222FAAE100049FF60 /* CFiAdMaglevSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		488FDA5C22FAAE100049FF60 /* CFiAdMaglevSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488FDA6C22FAAE100049FF60 /* Build configuration list for PBXNativeTarget "CFiAdMaglevSampleUITests" */;
+			buildPhases = (
+				488FDA5922FAAE100049FF60 /* Sources */,
+				488FDA5A22FAAE100049FF60 /* Frameworks */,
+				488FDA5B22FAAE100049FF60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				488FDA5F22FAAE100049FF60 /* PBXTargetDependency */,
+			);
+			name = CFiAdMaglevSampleUITests;
+			productName = CFiAdMaglevSampleUITests;
+			productReference = 488FDA5D22FAAE100049FF60 /* CFiAdMaglevSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		488FDA3222FAAE0E0049FF60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "CF-NB";
+				TargetAttributes = {
+					488FDA3922FAAE0E0049FF60 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					488FDA5122FAAE100049FF60 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 488FDA3922FAAE0E0049FF60;
+					};
+					488FDA5C22FAAE100049FF60 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 488FDA3922FAAE0E0049FF60;
+					};
+				};
+			};
+			buildConfigurationList = 488FDA3522FAAE0E0049FF60 /* Build configuration list for PBXProject "CFiAdMaglevSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 488FDA3122FAAE0E0049FF60;
+			productRefGroup = 488FDA3B22FAAE0F0049FF60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				488FDA3922FAAE0E0049FF60 /* CFiAdMaglevSample */,
+				488FDA5122FAAE100049FF60 /* CFiAdMaglevSampleTests */,
+				488FDA5C22FAAE100049FF60 /* CFiAdMaglevSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		488FDA3822FAAE0E0049FF60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488FDA4A22FAAE100049FF60 /* LaunchScreen.storyboard in Resources */,
+				488FDA4722FAAE100049FF60 /* Assets.xcassets in Resources */,
+				488FDA4522FAAE0F0049FF60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488FDA5022FAAE100049FF60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488FDA5B22FAAE100049FF60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		488FDA3622FAAE0E0049FF60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488FDA4222FAAE0F0049FF60 /* ViewController.m in Sources */,
+				488FDA4D22FAAE100049FF60 /* main.m in Sources */,
+				488FDA3F22FAAE0F0049FF60 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488FDA4E22FAAE100049FF60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488FDA5722FAAE100049FF60 /* CFiAdMaglevSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488FDA5922FAAE100049FF60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488FDA6222FAAE100049FF60 /* CFiAdMaglevSampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		488FDA5422FAAE100049FF60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 488FDA3922FAAE0E0049FF60 /* CFiAdMaglevSample */;
+			targetProxy = 488FDA5322FAAE100049FF60 /* PBXContainerItemProxy */;
+		};
+		488FDA5F22FAAE100049FF60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 488FDA3922FAAE0E0049FF60 /* CFiAdMaglevSample */;
+			targetProxy = 488FDA5E22FAAE100049FF60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		488FDA4322FAAE0F0049FF60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				488FDA4422FAAE0F0049FF60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		488FDA4822FAAE100049FF60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				488FDA4922FAAE100049FF60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		488FDA6422FAAE100049FF60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		488FDA6522FAAE100049FF60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		488FDA6722FAAE100049FF60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CFiAdMaglevSample",
+				);
+				INFOPLIST_FILE = CFiAdMaglevSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiAdMaglevSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		488FDA6822FAAE100049FF60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CFiAdMaglevSample",
+				);
+				INFOPLIST_FILE = CFiAdMaglevSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiAdMaglevSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		488FDA6A22FAAE100049FF60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
+				INFOPLIST_FILE = CFiAdMaglevSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiAdMaglevSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFiAdMaglevSample.app/CFiAdMaglevSample";
+			};
+			name = Debug;
+		};
+		488FDA6B22FAAE100049FF60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
+				INFOPLIST_FILE = CFiAdMaglevSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiAdMaglevSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFiAdMaglevSample.app/CFiAdMaglevSample";
+			};
+			name = Release;
+		};
+		488FDA6D22FAAE100049FF60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
+				INFOPLIST_FILE = CFiAdMaglevSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiAdMaglevSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CFiAdMaglevSample;
+			};
+			name = Debug;
+		};
+		488FDA6E22FAAE100049FF60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
+				INFOPLIST_FILE = CFiAdMaglevSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cf.CFiAdMaglevSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CFiAdMaglevSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		488FDA3522FAAE0E0049FF60 /* Build configuration list for PBXProject "CFiAdMaglevSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488FDA6422FAAE100049FF60 /* Debug */,
+				488FDA6522FAAE100049FF60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488FDA6622FAAE100049FF60 /* Build configuration list for PBXNativeTarget "CFiAdMaglevSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488FDA6722FAAE100049FF60 /* Debug */,
+				488FDA6822FAAE100049FF60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488FDA6922FAAE100049FF60 /* Build configuration list for PBXNativeTarget "CFiAdMaglevSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488FDA6A22FAAE100049FF60 /* Debug */,
+				488FDA6B22FAAE100049FF60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488FDA6C22FAAE100049FF60 /* Build configuration list for PBXNativeTarget "CFiAdMaglevSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488FDA6D22FAAE100049FF60 /* Debug */,
+				488FDA6E22FAAE100049FF60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 488FDA3222FAAE0E0049FF60 /* Project object */;
+}
