@@ -18,7 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    admaglev = [[MFAdMaglev alloc] init];
+//    admaglev = [[MFAdMaglev alloc] init];
+    admaglev = [[MFAdMaglev alloc] initWithLocation:AdMaglevBOTTOM | AdMaglevRIGHT];
     admaglev.bannerId = @"9800";
     admaglev.delegate = self;
     [admaglev debugInfo:YES];
